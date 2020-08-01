@@ -1,0 +1,206 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+.nav-link{
+	font-weight:bold;
+	color:#a29191;
+	transition:0.3s ease all;
+}
+.nav-link:hover{
+	color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+	background-color:#f5f4f4;
+    /* background-color: rgb(14 136 32 / 80%); */
+}
+.sticky-top{
+	background:white;	
+}
+.m-bottom-0{
+	margin-bottom:10px !important;
+	margin-top:40px !important;
+}
+.container{
+	margin-bottom:50px;
+}
+h1{
+	margin-bottom: .5em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.p_content{
+	margin-left:60px;
+	text-align:justify;	
+}
+.header-bg{
+	background-image:url('images/header-bg.png');	
+	background-size:cover;
+}
+
+/*Button Style Start*/
+.buy_now{
+	margin-top:20px;
+	background-image: linear-gradient(to bottom, #5E5774 30%, #000 80%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.buy_now:hover{
+	background-image: linear-gradient(to bottom, #5E5774 10%, #000 50%);
+	color:white;
+	text-decoration:none;
+}
+/*Button Style End*/
+
+
+/*Carousel Style Start*/
+.carousel-bg{
+	background-image:url('images/header-bg.png');
+	background-position: left;
+	background-size:cover;
+}
+.carousel-inner{
+	height:auto;
+}
+
+.carousel-item{
+	padding:5px 40px;
+	background: rgba(200, 200, 250, .1);
+	border-radius:10px;	
+}
+.carousel-item img{
+	/* box-shadow: 3px 1px 8px; */
+}
+.carousel-inner p{
+	color:gray;
+}
+.carousel-indicators li {    
+    width: 25px;
+    height: 5px;    
+    background-color: #e91e63;
+    border-radius: 110px;
+	opacity:0.2;
+}
+
+/*Carousel Style End*/
+
+/*Card Group Style Start*/
+.card{
+	margin-top: 30px;
+    box-shadow: 5px 24px 48px #908f8f24;
+    padding: 10px;
+    border: none;
+	line-height:1.5em;
+	margin-right:20px;
+	transition:0.3s all ease;
+}
+.card:hover{
+	box-shadow: 2px 5px 10px lightgrey;
+	cursor:pointer;
+}
+.card p{color: gray;}
+.container .seeall{
+	color: orange;
+    font-weight: bold;
+    font-family: nikosh;
+    text-transform: capitalize;
+	}
+.card h6{
+	color:black;
+	padding-bottom:10px;
+}
+/*Card Group Style End*/
+
+/*Categories Style Start*/
+.categories p{
+	font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.img-1, .img-2, .img-3{
+	box-shadow: 2px 5px 15px lightgrey;
+    border-radius: 20px 0 20px 0px;
+    margin: 10px;
+    padding: 50px 50px 20px 50px;
+	transition:0.3s all ease;
+}
+.img-4{
+	transition: .35s ease-in-out all;
+}
+.img-4:hover{
+	border-radius:180px 0 180px 0;
+	box-shadow: 2px 5px 10px grey;
+	border: 1px solid lightgrey;
+	cursor:pointer;
+}
+.img-1:hover, .img-2:hover, .img-3:hover{
+	box-shadow: 2px 5px 10px grey;
+	cursor:pointer;
+}
+.img-2{
+	margin-bottom:50px;
+}
+.img-1{
+	border-radius: 0px 20px 0 20px;
+}
+.img-3 p{
+	margin-top:0;
+	margin-bottom:30px;
+}
+.underline{
+	width: 10%;
+    height: 8px;
+    border-radius: 7px;
+    border: none;
+    background: linear-gradient(to right, #ffc420, #ff9c35);
+	margin-bottom: 70px;
+}
+/*Categories Style End*/
+
+/*Footer*/
+.copyright p{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+
+/*Responsive Website*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {    
+	flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-md-6{
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+@media screen and (max-width: 992px){
+	.card-group>.card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 40%;
+    margin-bottom: 0;}
+	.img-4{
+		margin-top:30px;
+	}
+}
+@media screen and (max-width: 768px){
+	.p_content {
+    margin-left: 5px;    
+	}	
+}
