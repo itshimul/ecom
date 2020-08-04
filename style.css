@@ -54,6 +54,9 @@ h1{
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 106px;
 }
 .buy_now:hover{
 	background-image: linear-gradient(to bottom, #5E5774 10%, #000 50%);
