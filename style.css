@@ -215,4 +215,7 @@ h1{
 	.order-first, .order-last{
 		order: unset;
 	}
+	.carousel-indicators{		
+		justify-content: flex-end;
+	}
 }
