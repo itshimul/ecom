@@ -208,5 +208,8 @@ h1{
 @media screen and (max-width: 768px){
 	.p_content {
     margin-left: 5px;    
-	}	
+	}
+	.order-first, .order-last{
+		order: unset;
+	}
 }
