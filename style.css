@@ -209,6 +209,9 @@ h1{
 	.p_content {
     margin-left: 5px;    
 	}
+	.card{
+		margin-right:0;
+	}
 	.order-first, .order-last{
 		order: unset;
 	}
